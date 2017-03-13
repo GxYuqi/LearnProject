@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.xiaogang.newonegril.v.view.activity.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#eeeeee"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/version_about"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+        <TextView
+            android:text="@string/about_xiaogang"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            />
+
+
+        <TextView
+            android:text="@string/about_update"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+
+        <TextView
+            android:text="@string/about_open"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+        <TextView
+            android:text="@string/about_thanks"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:lineSpacingExtra="6dp"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Learn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zhihu">知乎</string>
+    <string name="about">关于</string>
+    <string name="who">who</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="save">save</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="version_about">版本号：1.0 \n
+        网络请求：Retrofit + Rxjava + RxAndroid \n
+        框架： MVC 设计模式 \n
+        github地址： ↓↓↓\n
+        https://github.com/developergx</string>
+    <string name="about_xiaogang">Gx练手小项目</string>
+    <string name="about_update">妹子图和 Android 博客的 API 来自于 Gank.io\n
+        感谢干货集中营！</string>
+    <string name="about_open">知乎日报 API 并非知乎官方提供,如有侵权,本人会立即删除，感谢\n
+        已加入的开源库：Retrofit  Rxjava  Okhttp3  RxAndroid  Easyrecyclerview  Glide  Rollviewpager  Photoview</string>
+    <string name="about_thanks">感谢开源作者，感谢千库网提供素材！</string>
+    <string name="title_activity_zhihu">ZhihuActivity</string>
+    <string name="title_activity_zhihunews">ZhihunewsActivity</string>
+
+</resources>

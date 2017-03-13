@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "com.gx.learn"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+
+    compile 'com.android.support:support-v4:24.2.1'
+
+    compile 'com.android.support:design:24.2.1'
+    /**
+     *   cardview
+     *   http://blog.csdn.net/jdsjlzx/article/details/49511215
+     *   CardView Android 5.0 新特性，属于Support v7 里面的新的 Widget，  扩展于FrameLayout，
+     *   UI显示主要包括
+     *   1.边框圆角
+     *   2.有阴影Shadow
+     *   用来突出个性，比如展览，相册等。
+     */
+    compile'com.android.support:cardview-v7:24.0.0'
+
+    /**  easyrecyclerview   http://blog.csdn.net/qq_16430735/article/details/49341563#easyrecyclerview
+     * 将开发中常用的RecyclerView的各种需求封装进库。提升开发效率。
+     * 重点在Adapter与viewholder的封装。他们之间彻底解耦。
+     * adapter工作更少，仅负责业务逻辑。所以如果你使用mvp架构可以放进presenter层。
+     * viewholder负责View展示与Adapter没有任何耦合，将可以到处复用。并不会影响运行效率。
+     * 并且adapter支持数据管理，Header与Footer添加、加载更多、没有更多、加载错误
+     */
+    compile 'com.jude:easyrecyclerview:4.2.3'
+
+    /**
+     *   glide
+     * http://blog.csdn.net/shangmingchao/article/details/51125554/
+     */
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    /**  rollviewpager   http://www.2cto.com/kf/201605/506583.html
+     * 支持无限循环。
+     * 触摸时会暂停播放，直到结束触摸一个延迟周期以后继续播放。
+     * 指示器可以为点可以为数字还可以自定义，位置也可以变。
+     */
+    compile 'com.jude:rollviewpager:1.4.5'
+
+    /**  photoview   http://blog.csdn.net/zhaihaohao1/article/details/50673071
+     * 这是一个图片查看库，实现图片浏览功能，支持pinch（捏合）手势或者点击放大缩小。
+     * 支持在ViewPager中翻页浏览图片。
+     * PhotoView 是一款扩展自 ImageView 的控件，支持通过单点/多点触摸来进行图片缩放的智能控件。功能实用和强大。
+     */
+    compile 'com.bm.photoview:library:1.4.1'
+
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.google.code.gson:gson:2.4'
+
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+
+}
