@@ -14,17 +14,11 @@
     <string name="save">save</string>
     <string name="title_activity_web">WebActivity</string>
     <string name="title_activity_about">AboutActivity</string>
-    <string name="version_about">版本号：1.0 \n
-        网络请求：Retrofit + Rxjava + RxAndroid \n
-        框架： MVC 设计模式 \n
-        github地址： ↓↓↓\n
-        https://github.com/developergx</string>
+    <string name="version_about">版本号：1.0 \n网络请求：Retrofit + Rxjava + RxAndroid \n框架： MVC 设计模式 \ngithub地址： ↓↓↓\nhttps://github.com/developergx/LearnProject</string>
     <string name="about_xiaogang">Gx练手小项目</string>
-    <string name="about_update">妹子图和 Android 博客的 API 来自于 Gank.io\n
-        感谢干货集中营！</string>
-    <string name="about_open">知乎日报 API 并非知乎官方提供,如有侵权,本人会立即删除，感谢\n
-        已加入的开源库：Retrofit  Rxjava  Okhttp3  RxAndroid  Easyrecyclerview  Glide  Rollviewpager  Photoview</string>
-    <string name="about_thanks">感谢开源作者，感谢千库网提供素材！</string>
+    <string name="about_update">该项目是本人练习 MVC 结合 Retrofit+RxJava 的一个产物\n后期可能会更新到 MVP 设计模式</string>
+    <string name="about_open">妹子图和 Android 博客的 API 来自于 Gank.io\n感谢干货集中营！\n知乎日报 API 并非知乎官方提供,如有侵权,本人会立即删除，感谢</string>
+    <string name="about_thanks">感谢 iconfont 提供素材！</string>
     <string name="title_activity_zhihu">ZhihuActivity</string>
     <string name="title_activity_zhihunews">ZhihunewsActivity</string>
 
